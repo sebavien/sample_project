@@ -174,7 +174,7 @@ function easeCubicOut(t,b,c,d){return c*((t=t/d-1)*t*t+1)+b;}
 function easeQuartOut(t,b,c,d){return -c*((t=t/d-1)*t*t*t-1)+b;}
 
 /* =======================================================================
-utilities
+ drawCircleLine
 ======================================================================= */
 function drawCircleLine(ctx,x,y,r,weight,color,rad0,rad1){
 	ctx.lineWidth=weight;
