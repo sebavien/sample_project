@@ -44,8 +44,8 @@ var imgSrcs=[
 	"img/mv_slide3_image.jpg",
 ];
 function initArcImages(){
-	var canvas1=document.getElementById("arcCanvas1");
-	var canvas2=document.getElementById("arcCanvas2");
+	var canvas1=document.getElementsByClassName("canvas1")[0];
+	var canvas2=document.getElementsByClassName("canvas2")[0];
 	var archimageslider=new ArchImageSlider(canvas1,canvas2,imgSrcs);
 }
 /* =======================================================================
